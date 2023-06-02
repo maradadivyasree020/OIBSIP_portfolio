@@ -1,0 +1,84 @@
+.main{
+    background-color: bisque;
+}
+
+.head{
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.head ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: xx-large;
+}
+
+ul li a{
+    color: bisque;
+    text-decoration: none;
+}
+
+#home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.para{
+    padding-top: 100px;
+    font-size: xx-large;
+}
+
+.para p{
+    font-family: cursive;
+}
+
+.image{
+    padding: 50px;
+}
+
+.image img{
+    border-radius: 50%;
+}
+
+#about p{
+    font-family: cursive;
+    font-size: x-large;
+}
+
+.comp,.web{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;   
+}
+
+.image3 img{
+    border-radius: 50%;
+}
+
+.lang ul,.prog ul{
+    list-style-type: none;
+}
+
+.lang ul li,.prog ul li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+
+.prog h1,.lang h1{
+    font-size:xx-large;
+}
+
+#contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;   
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+}
